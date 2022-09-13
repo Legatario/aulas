@@ -1,0 +1,46 @@
+.IMC{
+    padding: 4rem;
+    background: #ccc;
+    margin: 2rem;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.field{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-self: center; 
+    width: 100%; 
+}
+
+.field input{
+    margin-bottom: 0.5em;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.field input:focus{
+    outline: 0;
+}
+
+.field button{
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+
+.field button:hover{
+    background: #61dafb;
+    color: black;
+}
+
+.field button:focus{
+    outline: 0;
+    background: #61dafb;
+    color: black;
+}
