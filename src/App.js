@@ -10,7 +10,7 @@ function App() {
       <Header title="Título do APP"/>
       <Imc />
 
-      <Login isLoggedIn={false} name={'Luis'}/>
+      <Login isLoggedIn={true} name={'Luis'}/>
     </div>
   );
 }
