@@ -2,7 +2,7 @@
 import './App.css';
 import Header from './Components/Header/Header';
 import Imc from './Components/IMC/Imc';
-import Login from './Components/Login/Login'
+import Login from './Components/Login/LoginControl'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Header title="Título do APP"/>
       <Imc />
 
-      <Login isLoggedIn={true} name={'Phillipe'}/>
+      <Login />
     </div>
   );
 }
