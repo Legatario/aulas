@@ -1,3 +1,5 @@
+import './style.css'
+
 function UserGreeting(props){
     return <h3> Olá {props.name}, Bem vindo(a), de volta!</h3>
 }

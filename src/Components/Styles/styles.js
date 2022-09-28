@@ -31,3 +31,10 @@ export const Loader = styled.div`
     border-radius: 50%;
     animation: 1s ${spin} infinite;
 `
+
+export const Just = styled.div `
+    margin: 30px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+`

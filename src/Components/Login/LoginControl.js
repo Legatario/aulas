@@ -1,5 +1,8 @@
 import React from "react";
-import Login from "./Login"
+import Login from "./Login";
+import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
+import { Just } from "../Styles/styles";
 
 export default class LoginControl extends React.Component{
     constructor(props){
@@ -34,11 +37,13 @@ export default class LoginControl extends React.Component{
         let button
 
         if(isLoggedID){
-            button = <button onClick={this.handleLogout}>Sair</button>
+            button = <Button onClick={this.handleLogout} variant="outlined">Sair</Button>
         }else{
             button = <div>
-                        <input placeholder="digite seu nome" onChange={e => this.handleName(e.target.value)}/>
-                        <button onClick={this.handleLogin}>Entar</button>
+                        <TextField id="outlined-basic" label="Nome" variant="outlined" onChange={e => this.handleName(e.target.value)} focused/>
+                        <Just>
+                            <Button variant="outlined" onClick={this.handleLogin}>Entrar</Button>
+                        </Just>
                     </div>
         }
 
