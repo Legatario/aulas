@@ -1,5 +1,7 @@
 import './style.css'
 import React, {useState} from 'react'
+import { Heading1 } from '../Styles/styles'
+
 
 function Imc(){
     const [weight, setWeight] = useState() 
@@ -14,7 +16,11 @@ function Imc(){
     }
     return(
         <div className='IMC'>
-            <h2> Cálculo de IMC</h2>
+            <Heading1>
+                Cálculo de 
+                <span>IMC</span> 
+            </Heading1>
+
             <div className='field'>
             <input type='number' 
             placeholder="digite seu peso"

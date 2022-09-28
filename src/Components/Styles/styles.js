@@ -11,12 +11,12 @@ const spin = keyframes`
 
 export const Heading1 = styled.h1 `
     font-size: 1.5rem;
-    color: #e99;
+    color: #000;
 
     span{
         display: block;
         font-size: 80%;
-        color: #99e
+        color: #1976d2;
     }
 `
 
