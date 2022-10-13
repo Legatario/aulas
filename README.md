@@ -21,7 +21,7 @@
 
 ## 📁 Acesso ao projeto
 
-`npm install`
+`npm install` <br>
 `npm start`
 
 ## Tecnologias utilizadas
